@@ -5,3 +5,9 @@ Comando para instalar a CLI do NestJS
 Comando para criar uma aplicação com NestJS
     - nest new nome-do-app
 #################################################
+Comando para criar um modulo de resources
+    - nest generate resource
+#################################################
+Comando para instalar o sequelize e o sqlite3
+    - npm install sequelize sequelize-typescript sqlite3 @nestjs/sequelize
+#################################################
