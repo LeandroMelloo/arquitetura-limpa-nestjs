@@ -1,0 +1,7 @@
+#################################################
+Comando para instalar a CLI do NestJS
+    - npm install -g @nestjs/cli
+#################################################
+Comando para criar uma aplicação com NestJS
+    - nest new nome-do-app
+#################################################
