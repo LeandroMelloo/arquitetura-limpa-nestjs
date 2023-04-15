@@ -11,3 +11,6 @@ Comando para criar um modulo de resources
 Comando para instalar o sequelize e o sqlite3
     - npm install sequelize sequelize-typescript sqlite3 @nestjs/sequelize
 #################################################
+Comando para gerar uma api FAKE
+    - npm install json-server --save-dev
+#################################################
