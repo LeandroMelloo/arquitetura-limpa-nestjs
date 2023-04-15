@@ -1,9 +1,9 @@
 import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-import { ListModule } from '../nest-arquitetura-hexagonal/src/list/list.module';
 import { SequelizeModule } from '@nestjs/sequelize';
-import { List } from '../nest-arquitetura-hexagonal/src/list/entities/list.entity';
+import { ListModule } from './list/list.module';
+import { List } from './list/entities/list.entity';
 
 @Module({
   imports: [
