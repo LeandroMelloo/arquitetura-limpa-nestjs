@@ -1,3 +1,16 @@
 {
-    "list": []
+  "list": [
+    {
+      "name": "My list test1",
+      "id": 1
+    },
+    {
+      "name": "My list test2",
+      "id": 2
+    },
+    {
+      "name": "My list test3",
+      "id": 3
+    }
+  ]
 }

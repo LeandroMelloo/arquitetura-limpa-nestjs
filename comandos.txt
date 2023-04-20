@@ -14,3 +14,5 @@ Comando para instalar o sequelize e o sqlite3
 Comando para gerar uma api FAKE
     - npm install json-server --save-dev
 #################################################
+Comando para instalar o axios
+    - npm install @nestjs/axios

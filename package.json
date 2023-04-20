@@ -21,6 +21,7 @@
     "fake-api": "json-server --watch crm.json --port 8000"
   },
   "dependencies": {
+    "@nestjs/axios": "^2.0.0",
     "@nestjs/common": "^9.0.0",
     "@nestjs/core": "^9.0.0",
     "@nestjs/mapped-types": "*",
