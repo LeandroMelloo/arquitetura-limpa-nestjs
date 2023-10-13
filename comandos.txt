@@ -25,3 +25,6 @@ Comando para criar um modulo
 #################################################
 Comando para criar um serviço
   - nest g service shared/infrastructure/env-config
+###################################################
+Comando para instalar a biblioteca Faker
+  - npm install -D @faker-js/faker
