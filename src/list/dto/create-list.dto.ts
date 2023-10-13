@@ -1,3 +1,3 @@
 export class CreateListDto {
-  name: string;
+  name: string
 }
