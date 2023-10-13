@@ -16,3 +16,12 @@ Comando para gerar uma api FAKE
 #################################################
 Comando para instalar o axios
     - npm install @nestjs/axios
+#################################################
+Comando para instalar o config
+    - npm install @nestjs/config
+#################################################
+Comando para criar um modulo
+  - nest g module shared/infrastructure/env-config
+#################################################
+Comando para criar um serviço
+  - nest g service shared/infrastructure/env-config

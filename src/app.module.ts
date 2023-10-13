@@ -4,6 +4,7 @@ import { AppService } from './app.service'
 import { SequelizeModule } from '@nestjs/sequelize'
 import { ListModule } from './list/list.module'
 import { List } from './list/entities/list.entity'
+import { EnvConfigModule } from './shared/infrastructure/env-config/env-config.module'
 
 @Module({
   imports: [
@@ -14,6 +15,7 @@ import { List } from './list/entities/list.entity'
       autoLoadModels: true,
       models: [List],
     }),
+    EnvConfigModule,
   ],
   controllers: [AppController],
   providers: [AppService],
